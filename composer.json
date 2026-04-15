@@ -1,0 +1,27 @@
+{
+  "name": "sunapi365/sdk",
+  "description": "Official PHP Composer SDK for SUNAPI.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://development.sunapi.site/",
+  "keywords": [
+    "sunapi",
+    "sdk",
+    "composer",
+    "php",
+    "sunat"
+  ],
+  "support": {
+    "docs": "https://development.sunapi.site/",
+    "issues": "https://github.com/Yeferson-gm/SUNAPI-365-PE-COMPOSER/issues",
+    "source": "https://github.com/Yeferson-gm/SUNAPI-365-PE-COMPOSER"
+  },
+  "autoload": {
+    "psr-4": {
+      "SunApi365\\\\Sdk\\\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  }
+}
