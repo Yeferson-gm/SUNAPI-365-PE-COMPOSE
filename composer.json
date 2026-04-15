@@ -1,0 +1,32 @@
+{
+  "name": "sunapi365/sdk",
+  "description": "Private proprietary PHP Composer SDK for SUNAPI.",
+  "type": "library",
+  "license": "proprietary",
+  "homepage": "https://sunapi.site/",
+  "keywords": [
+    "sunapi",
+    "sdk",
+    "composer",
+    "php",
+    "sunat"
+  ],
+  "authors": [
+    {
+      "name": "CEDRUS TECHNOLOGY GROUP S.A.C"
+    }
+  ],
+  "support": {
+    "docs": "https://sunapi.site/",
+    "issues": "https://github.com/Yeferson-gm/SUNAPI-365-PE-COMPOSER/issues",
+    "source": "https://github.com/Yeferson-gm/SUNAPI-365-PE-COMPOSER"
+  },
+  "autoload": {
+    "psr-4": {
+      "SunApi365\\Sdk\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  }
+}
